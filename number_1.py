@@ -9,7 +9,7 @@ def total_salary(path):
         print('File not found')
         return None, None
     return sum(salary), sum(salary)/len(salary)
-file_path = pathlib.Path(r'C:\Users\User\Desktop\projects\repos\dzModule4\salary.txt')
+file_path = pathlib.Path('salary.txt')
 total, average = total_salary(file_path)  
 print("total salary:", total)
 print("average:", average)
